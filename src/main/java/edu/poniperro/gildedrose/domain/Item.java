@@ -2,9 +2,9 @@ package edu.poniperro.gildedrose.domain;
 
 public final class Item {
 
-    private String name;
-    private int sellIn;
-    private int quality;
+    public String name;
+    public int sellIn;
+    public int quality;
 
     public Item (String name, int sellIn, int quality) {
         this.name = name;
